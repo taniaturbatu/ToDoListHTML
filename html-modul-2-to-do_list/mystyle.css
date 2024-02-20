@@ -1,0 +1,64 @@
+.background{
+    background-color: rgba(201, 124, 36, 0.712);
+}
+
+.titlu{
+    text-align: center;
+    font-size: 500%;
+    font-family: cursive;
+    color:rgb(6, 34, 10);
+}
+
+.casuta{
+    background-color: bisque;
+    height: 8vh;
+    width: 50vw;
+    margin: auto;
+    color: rgb(6, 34, 10);
+    position: relative;
+}
+
+#text_casuta{
+    position: relative;
+    height: 8vh;
+    width: 50vw;
+    margin: auto;
+    font-size: 150%;
+    font-style: italic;
+    font-family: cursive;
+    color: rgb(6, 34, 10);
+    border-style: none;
+}
+
+.text_taiat{
+    margin-left: 100px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 250%;
+    font-family: cursive;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 25px;
+    color: rgb(81, 69, 59);
+    font-size: 150%;
+    font-family: cursive;
+}
+
+.font{
+    font-size: 30px;
+    border-color: transparent;
+    background-color: bisque;
+    color: rgb(81, 69, 59);
+}
+
+.buttons{
+    display: inline-block;
+}
+
+#items{
+    display: inline-block;
+}

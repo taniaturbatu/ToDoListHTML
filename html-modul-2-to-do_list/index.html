@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="background">
+    <head>
+        <title>Write down your to dos</title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <div class="titlu">
+            to-do list
+        </div>
+        <div id="lista_todos">
+            <div class="casuta">
+                <input type="text" placeholder="Write your 'to do' here" id="text_casuta">
+            </div>
+        </div>
+        <div class="footer">
+            <div id="items">0 items left</div>
+            <div class="buttons">
+                <button class="all font">All</button>
+                <button class="active font">Active</button>
+                <button class="completed font">Completed</button>
+            </div>
+            <button class="clearall font" onclick="document.location.reload()">Clear all</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
